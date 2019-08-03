@@ -4,7 +4,7 @@ The original dataset includes total of 3791 confirmed planets as of Sep. 27. Amo
 
 
 ```
-[parameters]
+[mapping detail]
 
 Planet Name – just as reference
 Distance [pc] – note order
