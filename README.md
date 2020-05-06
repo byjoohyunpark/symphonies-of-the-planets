@@ -1,4 +1,4 @@
-### Symphonies of the Planets
+### generative music planet
 
 This project aims to generate "some" music based on the data we have about exoplanets. All the sounds here are distinctively mapped with dataset collected from [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/index.html). You can check result [here](https://jooohyunpark.github.io/symphonies-of-the-planets/).
 
