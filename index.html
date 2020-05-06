@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Symphonies of the Planets</title>
+    <title>Generative Music Planet</title>
     <style>
         body,
         html {
@@ -26,25 +26,28 @@
         iframe {
             padding: 24px 0;
         }
-
     </style>
 </head>
 
 <body>
 
     <div>
-        <p><b>Symphonies of the Planets</b></p>
+        <p><b>Generative Music Planet</b></p>
         <p className="project-desc">
             Arbitrary symphonies generated from NASA Exoplanet data.
         </p>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/507633498&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/507633498&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </div>
 
 
     <div>
         <p>
             <!--            In cosmology the universe started off in a big bang 13.7 billion years ago. And unfortunately, we are still clueless as to most of it. Amongst tons of planets in the universe, what we have discovered so far is a small portion. -->
-            This project aims to generate "some" music based on the data we have about exoplanets. All the sounds here are distinctively mapped with dataset collected from <a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" rel="noopener noreferrer">NASA Exoplanet Archive</a>.
+            This project aims to generate "some" music based on the data we have about exoplanets. All the sounds here
+            are distinctively mapped with dataset collected from <a
+                href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank"
+                rel="noopener noreferrer">NASA Exoplanet Archive</a>.
         </p>
     </div>
 
@@ -54,13 +57,15 @@
         <img src="./img/process-flow.png" alt="" />
     </div>
     <div>
-        <p>The original dataset includes total of 3791 confirmed planets as of Sep. 27. For suitable synthesization, 10 parameters are selected and mapped to musical features starting 67.</p>
+        <p>The original dataset includes total of 3791 confirmed planets as of Sep. 27. For suitable synthesization, 10
+            parameters are selected and mapped to musical features starting 67.</p>
     </div>
     <div>
         <img src="./img/data-cleaning.png" alt="" />
     </div>
     <div>
-        <p>Based on a seven-note scale in B major, pitch for each note is mapped from the remainder of parameter value divided by 7. A duration is mapped from the scale of parameter value compared to the total.</p>
+        <p>Based on a seven-note scale in B major, pitch for each note is mapped from the remainder of parameter value
+            divided by 7. A duration is mapped from the scale of parameter value compared to the total.</p>
     </div>
     <div>
         <img src="./img/midi-note.png" alt="" />
